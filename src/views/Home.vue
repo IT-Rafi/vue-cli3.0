@@ -35,6 +35,9 @@ export default {
       }
     }
   },
+  created(){
+    document.title=this.$title.index
+  },
   mounted() {
     this.getUserMsg();
   },

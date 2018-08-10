@@ -9,16 +9,16 @@ export default new Router({
     {
       path: '',
       redirect: '/home',
-      meta:{
-        title:'首页'
-      }
+      // meta:{
+      //   title:'首页'
+      // }
     },
     {
       path: '/home',
       component: Home,
-      meta:{
-        title:'首页'
-      }
+      // meta:{
+      //   title:'首页'
+      // }
     },
     {
       path: '/about',
@@ -27,9 +27,9 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
-      meta:{
-        title:'about页'
-      }
+      // meta:{
+      //   title:'about页'
+      // }
     }
   ]
 })

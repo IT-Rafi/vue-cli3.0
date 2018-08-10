@@ -3,9 +3,6 @@
     <router-view/>
   </div>
 </template>
-<script>
-  document.title="首页"
-</script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 </style>

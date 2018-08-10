@@ -9,6 +9,9 @@ export default {
     link(){
       this.$router.push({path:'/'})
     }
+  },
+  created(){
+    document.title=this.$title.about
   }
 }
 </script>
