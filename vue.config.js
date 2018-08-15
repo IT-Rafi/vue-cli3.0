@@ -1,4 +1,5 @@
-
+// let test=require('./src/config/title')
+// console.log(test)
 module.exports = {
     baseUrl: '',
     devServer: {

@@ -22,10 +22,7 @@ if(window.location.hostname.indexOf('localhost') > -1){
   host1 = ""//正式环境地址
 }
 
-let api={
+export let api={
     login:host+"wapreg/checklogin.aspx?format=json&encode=no",
     nr:host1+"api/tradeinfo/queryLimit",
-}
-export {
-    api
 }
